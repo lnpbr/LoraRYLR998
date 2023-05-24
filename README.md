@@ -16,7 +16,7 @@ RXD      --  RX
 Comandos para configurar o módulo rádio LoRa:
 
 ```
-AT+ADDRESS=6 (escolher um endereço diferente para cada rádio)
+AT+ADDRESS=6 (escolher um endereço diferente para cada rádio, neste projeto, o 6 envia dados para o 5)
 AT+NETWORKID=10 (deve-se usar o mesmo network parâmetro para todos os rádios)
 AT+BAND=915000000 (frequência de operação, consulte as frequências aprovadas)
 ```
