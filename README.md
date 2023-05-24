@@ -23,7 +23,7 @@ AT+BAND=915000000 (frequência de operação, consulte as frequências aprovadas
 
 ## Projeto FINAL
 
-**Esquema de ligação do dispositivo que RECEBE os dados do sensor**
+**Esquema de ligação do dispositivo que ENVIA os dados do sensor**
 
 ```
 DHT11 <--> NodeMCU
